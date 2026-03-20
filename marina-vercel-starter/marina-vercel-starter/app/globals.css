@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --font-sans: "Avenir Next", "Segoe UI", "Helvetica Neue", sans-serif;
+  --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+  --canvas: #fcfaf7;
+  --surface: #f8f4ef;
+  --surface-soft: #f2eae2;
+  --surface-elevated: #ffffff;
+  --brand: #7a2e3a;
+  --brand-deep: #5e1f2b;
+  --brand-soft: #f7ecef;
+  --accent: #c8a96b;
+  --accent-soft: #fbf3e3;
+  --border-soft: #e8ddd2;
+  --border-medium: #d8c7b8;
+  --text-primary: #241c1a;
+  --text-secondary: #463a36;
+  --text-muted: #8c766d;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(200, 169, 107, 0.12), transparent 28%),
+    linear-gradient(135deg, #f8f4ef 0%, #f2eae2 45%, #e8ddd2 100%);
+  color: var(--text-primary);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
